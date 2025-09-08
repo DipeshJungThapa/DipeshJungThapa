@@ -1,0 +1,16 @@
+name: Breakout
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  play:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Run Breakout Game
+        uses: muesli/markscribe-action@v1
