@@ -1,16 +1,25 @@
-name: Breakout
+name: GitHub Breakout
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    - cron: '0 * * * *'   # runs every hour to refresh the game board
+  workflow_dispatch:       # allows manual run from Actions tab
 
 jobs:
-  play:
+  breakout:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Run Breakout Game
-        uses: muesli/markscribe-action@v1
+      - name: Play Breakout
+        uses: muesli/github-breakout@main
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit updated README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update Breakout game" || echo "No changes to commit"
+          git push
