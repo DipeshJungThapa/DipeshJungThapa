@@ -13,7 +13,6 @@
   </a>
 </div>
 
-
 ###
 
 <h1 align="center">👋 Hi, I’m Dipesh Thapa</h1>
@@ -25,8 +24,8 @@
 <p align="left">
   I'm Dipesh Thapa from Kathmandu, Nepal. <br>
   👀 I'm passionate about exploring new technologies. <br>
- 🌱 I’m currently learning JavaScript. <br>
-💞️ I want to connect and share ideas with like-minded people. <br>
+  🌱 I’m currently learning JavaScript. <br>
+  💞️ I want to connect and share ideas with like-minded people. <br>
   📫 How to reach me: dipeshthapa.codes@gmail.com
 </p>
 
@@ -47,6 +46,22 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" alt="Linux logo" />
 </div>
+
+###
+
+<h3 align="left">🎮 Play My GitHub Breakout!</h3>
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/DipeshJungThapa/DipeshJungThapa/refs/heads/github-breakout/images/breakout-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/DipeshJungThapa/DipeshJungThapa/refs/heads/github-breakout/images/breakout-light.svg"
+  />
+  <img alt="Breakout Game" src="https://raw.githubusercontent.com/DipeshJungThapa/DipeshJungThapa/refs/heads/github-breakout/images/breakout-light.svg" />
+</picture>
 
 ###
 
