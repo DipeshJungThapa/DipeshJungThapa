@@ -24,7 +24,7 @@
 <p align="left">
   I'm Dipesh Thapa from Kathmandu, Nepal. <br>
   👀 I'm passionate about exploring new technologies. <br>
-  🌱 I’m currently learning JavaScript. <br>
+  🌱 I’m currently learning Django <br>
   💞️ I want to connect and share ideas with like-minded people. <br>
   📫 How to reach me: dipeshthapa.codes@gmail.com
 </p>
